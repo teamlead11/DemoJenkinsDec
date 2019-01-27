@@ -1,0 +1,439 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2976950869,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.beforeMethod()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "To test success message when the user clicks submit button1",
+        "description": "",
+        "id": "to-test-add-customer-feature;to-test-success-message-when-the-user-clicks-submit-button1",
+        "after": [
+          {
+            "result": {
+              "duration": 623446460,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.afterMethod()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3408845809,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "The user is in gurutelecom home page",
+            "match": {
+              "location": "HomePageSteps.the_user_is_in_gurutelecom_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5432380141,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "The user navigates to add customer page",
+            "match": {
+              "location": "HomePageSteps.somename()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 599379324,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The user fill in the customer details",
+            "match": {
+              "location": "AddCustomerSteps.the_user_fill_in_the_customer_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "fname",
+                  "lname",
+                  "email",
+                  "adress",
+                  "phnum"
+                ]
+              },
+              {
+                "cells": [
+                  "test",
+                  "testlastname",
+                  "test@gmail.com",
+                  "chennai",
+                  "123456789"
+                ]
+              },
+              {
+                "cells": [
+                  "testone",
+                  "testlastnameone",
+                  "test1@gmail.com",
+                  "chennai",
+                  "123456781"
+                ]
+              },
+              {
+                "cells": [
+                  "testtwo",
+                  "testlastnametwo",
+                  "test2@gmail.com",
+                  "chennai",
+                  "123456782"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1900267706,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "The user clicks the submit button",
+            "match": {
+              "location": "AddCustomerSteps.the_user_clicks_the_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51844855,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "The user should see the sucess message",
+            "match": {
+              "location": "AccesspageSteps.the_user_should_see_the_sucess_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@abcd"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@abcd1"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2196941616,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.beforeMethod()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "To test success message when the user clicks submit button2",
+        "description": "",
+        "id": "to-test-add-customer-feature;to-test-success-message-when-the-user-clicks-submit-button2",
+        "after": [
+          {
+            "result": {
+              "duration": 2883786763,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.afterMethod()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3305261885,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "The user is in gurutelecom home page",
+            "match": {
+              "location": "HomePageSteps.the_user_is_in_gurutelecom_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2132237542,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "The user navigates to add customer page",
+            "match": {
+              "location": "HomePageSteps.somename()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 706442515,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "The user fill in the customer details",
+            "match": {
+              "location": "AddCustomerSteps.the_user_fill_in_the_customer_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "fname",
+                  "lname",
+                  "email",
+                  "adress",
+                  "phnum"
+                ]
+              },
+              {
+                "cells": [
+                  "test",
+                  "testlastname",
+                  "test@gmail.com",
+                  "chennai",
+                  "123456789"
+                ]
+              },
+              {
+                "cells": [
+                  "testone",
+                  "testlastnameone",
+                  "test1@gmail.com",
+                  "chennai",
+                  "123456781"
+                ]
+              },
+              {
+                "cells": [
+                  "testtwo",
+                  "testlastnametwo",
+                  "test2@gmail.com",
+                  "chennai",
+                  "123456782"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1550996812,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "The user clicks the submit button",
+            "match": {
+              "location": "AddCustomerSteps.the_user_clicks_the_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54493710,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "The user should see the sucess message",
+            "match": {
+              "location": "AccesspageSteps.the_user_should_see_the_sucess_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@abcd"
+          },
+          {
+            "name": "@abcd2"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2164091508,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.beforeMethod()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "To test success message when the user clicks submit button3",
+        "description": "",
+        "id": "to-test-add-customer-feature;to-test-success-message-when-the-user-clicks-submit-button3",
+        "after": [
+          {
+            "result": {
+              "duration": 2877547214,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.afterMethod()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3086637174,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "The user is in gurutelecom home page",
+            "match": {
+              "location": "HomePageSteps.the_user_is_in_gurutelecom_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1805519647,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "The user navigates to add customer page",
+            "match": {
+              "location": "HomePageSteps.somename()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 758276086,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "The user fill in the customer details",
+            "match": {
+              "location": "AddCustomerSteps.the_user_fill_in_the_customer_details(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "fname",
+                  "lname",
+                  "email",
+                  "adress",
+                  "phnum"
+                ]
+              },
+              {
+                "cells": [
+                  "test",
+                  "testlastname",
+                  "test@gmail.com",
+                  "chennai",
+                  "123456789"
+                ]
+              },
+              {
+                "cells": [
+                  "testone",
+                  "testlastnameone",
+                  "test1@gmail.com",
+                  "chennai",
+                  "123456781"
+                ]
+              },
+              {
+                "cells": [
+                  "testtwo",
+                  "testlastnametwo",
+                  "test2@gmail.com",
+                  "chennai",
+                  "123456782"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1950795539,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "The user clicks the submit button",
+            "match": {
+              "location": "AddCustomerSteps.the_user_clicks_the_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 49223856,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "The user should see the sucess message",
+            "match": {
+              "location": "AccesspageSteps.the_user_should_see_the_sucess_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@abcd"
+          },
+          {
+            "name": "@abcd3"
+          }
+        ]
+      }
+    ],
+    "name": "To Test Add customer feature",
+    "description": "",
+    "id": "to-test-add-customer-feature",
+    "keyword": "Feature",
+    "uri": "src/test/resources/feature/AddCustomer.feature",
+    "tags": [
+      {
+        "name": "@abcd",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

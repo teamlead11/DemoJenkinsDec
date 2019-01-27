@@ -14,7 +14,7 @@ import cucumber.api.java.en.When;
 import io.cucumber.datatable.DataTable;
 import pageobjects.AddCustomerPage;
 
-public class AddCustomerSteps extends Hook {
+public class AddCustomerSteps {
 
 	@When("The user fill in the customer details")
 	public void the_user_fill_in_the_customer_details(DataTable customerDetails) {
